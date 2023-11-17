@@ -13,7 +13,6 @@ def chatbot():
         pattern = re.compile(key)
         point = pattern.findall(command)
         if point:
-            print("Ação detectada")
             function()
             return
 
